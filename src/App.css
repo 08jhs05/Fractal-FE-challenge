@@ -1,0 +1,64 @@
+/* list page */
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 20px;
+}
+
+td {
+  padding: 20px;
+  text-align: center;
+}
+
+.business-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+/* places page */
+
+h3 {
+  padding: 20px;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
+
+.business-info {
+  padding: 0 20px 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.info-section {
+  padding-left: 5%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-title {
+  font-weight: bold;
+}
+
+.image-error-message {
+  width: 400px;
+  height: 400px;
+}
+
+.info-hours {
+  display: flex;
+}
+
+.hours {
+  padding-left: 20px;
+}
